@@ -1,4 +1,4 @@
-import { ReputationProvider, ReputationSource, Evidence, AgentIdentity } from '../types';
+import { ReputationProvider, ReputationSource, Evidence, AgentIdentity } from '../types.js';
 
 /**
  * AION Network reputation provider

@@ -1,12 +1,12 @@
-export * from './types';
-export * from './core/aggregator';
-export * from './core/algorithms';
-export * from './providers/mock';
-export * from './providers/aion';
+export * from './types.js';
+export * from './core/aggregator.js';
+export * from './core/algorithms.js';
+export * from './providers/mock.js';
+export * from './providers/aion.js';
 
-import { ReputationAggregator } from './core/aggregator';
-import { MockReputationProvider } from './providers/mock';
-import { AionReputationProvider } from './providers/aion';
+import { ReputationAggregator } from './core/aggregator.js';
+import { MockReputationProvider } from './providers/mock.js';
+import { AionReputationProvider } from './providers/aion.js';
 
 /**
  * Factory method to create a pre-configured aggregator with standard providers

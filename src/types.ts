@@ -42,7 +42,7 @@ export interface AggregationOptions {
   decayHalfLifeDays?: number; // How quickly evidence loses relevance
   minConfidenceThreshold?: number;
   providerWeights?: Partial<Record<ReputationSource, number>>;
-  algorithm?: 'simple-average' | 'bayesian' | 'wilson-score';
+  algorithm?: 'simple-average' | 'bayesian' | 'wilson-score' | 'weighted-average';
 }
 
 export abstract class ReputationProvider {

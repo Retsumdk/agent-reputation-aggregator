@@ -21,8 +21,10 @@ In multi-agent systems, trust is the primary currency. The **Agent Reputation Ag
 ## Installation
 
 ```bash
-bun add agent-reputation-aggregator
+npm install github:Retsumdk/agent-reputation-aggregator
 ```
+
+> **Using Bun?** Bun blocks a git dependency's lifecycle scripts by default. After installing, run `bun pm trust agent-reputation-aggregator` so the `prepare` build step runs.
 
 ## Quick Start
 

@@ -1,4 +1,4 @@
-import { Evidence, AggregationOptions, ReputationSource } from './types';
+import { Evidence, AggregationOptions, ReputationSource } from '../types.js';
 
 /**
  * Advanced scoring algorithms for reputation aggregation

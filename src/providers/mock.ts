@@ -1,4 +1,4 @@
-import { ReputationProvider, ReputationSource, Evidence, AgentIdentity } from '../types';
+import { ReputationProvider, ReputationSource, Evidence, AgentIdentity } from '../types.js';
 
 /**
  * Mock provider for testing and demonstration

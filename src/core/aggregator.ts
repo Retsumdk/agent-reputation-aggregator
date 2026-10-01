@@ -5,8 +5,8 @@ import {
   ReputationSummary, 
   AggregationOptions, 
   ReputationSource 
-} from '../types';
-import { ReputationAlgorithms } from './algorithms';
+} from '../types.js';
+import { ReputationAlgorithms } from './algorithms.js';
 
 /**
  * Main engine for aggregating reputation across multiple providers
